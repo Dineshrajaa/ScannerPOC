@@ -9,7 +9,7 @@ var scannerMethods={
 		// Method to listen keydown
 			var eventLister=document.getElementById("eventLister");
 			var firstTextbox=document.getElementById("firstTextbox");
-			var t = document.createTextNode("BeforeText:"+firstTextbox.value+event.which);
+			var t = document.createTextNode("BeforeText:"+firstTextbox.value+event.keyCode);
 			eventLister.appendChild(t);
 		if(event.keyCode==13){
 			var eventLister=document.getElementById("eventLister");
